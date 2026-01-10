@@ -1,32 +1,36 @@
-# Chandan Kumar - Professional Portfolio Website
+# Chandan Kumar
 
-A modern, responsive portfolio website built with vanilla JavaScript, HTML5, and CSS3. Features dark/light theme toggle, interactive animations, filterable project showcase, and a timeline-based resume.
+Full-Stack Engineer & AI/ML Developer
+
+## Professional Summary
+
+Modern, responsive portfolio website showcasing professional experience, technical projects, and thought leadership. Built with vanilla JavaScript, HTML5, and CSS3.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-success)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
 ![CSS3](https://img.shields.io/badge/CSS3-Modern-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## ✨ Features
+## Features
 
 ### Core Pages
-- **Homepage** - Hero section with typewriter effect, gradient text, and floating shapes animation
-- **About** - Personal story, highlights, skills overview with categorized tags
-- **Portfolio** - Filterable project showcase (All/AI-ML/Cloud/Mobile/Web categories)
-- **Resume** - Interactive timeline with experience, education, and awards
-- **Blog** - Thought leadership articles on AI/ML, cloud, and software engineering
-- **Contact** - Multi-method contact info with validated form
+- **Homepage** - Hero section with typewriter effect and gradient text
+- **About** - Professional story, highlights, and skills overview
+- **Portfolio** - Filterable project showcase (AI-ML, Cloud, Mobile, Web)
+- **Resume** - Professional timeline with experience, education, and awards
+- **Blog** - Articles on AI/ML, cloud computing, and software engineering
+- **Contact** - Multiple contact methods with form validation
 
-### Interactive Features
-- 🌓 **Dark/Light Theme Toggle** - Smooth theme switching with localStorage persistence
-- 📱 **Fully Responsive** - Mobile-first design with hamburger menu
-- ✨ **Scroll Animations** - Fade-in effects and parallax hero background
-- ⌨️ **Typewriter Effect** - Dynamic role titles on homepage
-- 🎨 **Gradient Accents** - Modern purple-blue gradient throughout
-- 🔍 **SEO Optimized** - Semantic HTML with meta tags
-- ♿ **Accessible** - ARIA labels and keyboard navigation
+### Technical Features
+- **Dark/Light Theme Toggle** - Smooth theme switching with localStorage persistence
+- **Fully Responsive** - Mobile-first design with hamburger menu
+- **Scroll Animations** - Fade-in effects and parallax backgrounds
+- **Typewriter Effect** - Dynamic role titles
+- **Gradient Accents** - Modern design system
+- **SEO Optimized** - Semantic HTML with meta tags
+- **Accessible** - ARIA labels and keyboard navigation
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Open Locally (No Server Required)
 
@@ -71,7 +75,7 @@ php -S localhost:8000
 
 Then open `http://localhost:8000` in your browser.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio-website/
@@ -86,7 +90,7 @@ portfolio-website/
 └── README.md              # This file
 ```
 
-## 🎨 Customization Guide
+## Customization Guide
 
 ### 1. Update Personal Information
 
@@ -108,7 +112,6 @@ portfolio-website/
     id: 1,
     title: "Your Project Name",
     category: ["ai-ml", "cloud", "web", "mobile"], // Pick relevant
-    icon: "🚀", // Choose an emoji
     date: "Jan 2026 - Present",
     description: "Brief project description...",
     technologies: ["Python", "React", "AWS"],
@@ -153,7 +156,6 @@ portfolio-website/
     date: "Jan 15, 2026",
     readTime: "8 min",
     category: "AI/ML", // or Cloud, Mobile, etc.
-    icon: "🤖",
     excerpt: "Brief excerpt...",
     slug: "blog-post-url-slug"
 }
@@ -197,7 +199,7 @@ Currently uses a placeholder gradient circle. To add a real photo:
 </div>
 ```
 
-## 🌐 Deployment Options
+## Deployment Options
 
 ### GitHub Pages (Free)
 
@@ -243,7 +245,7 @@ Currently uses a placeholder gradient circle. To add a real photo:
    - Build output directory: `/`
 4. Deploy
 
-## 📊 Analytics Integration
+## Analytics Integration
 
 Add Google Analytics to track visitors:
 
@@ -260,7 +262,7 @@ Add Google Analytics to track visitors:
 </script>
 ```
 
-## 🔧 Advanced Customizations
+## Advanced Customizations
 
 ### Add Contact Form Backend
 
@@ -306,7 +308,7 @@ To add full blog post pages:
 2. Add individual HTML files for each post
 3. Update blog card links in `js/data.js` to point to actual files
 
-## 🎯 SEO Optimization
+## SEO Optimization
 
 ### Update Meta Tags
 
@@ -337,15 +339,15 @@ Create `sitemap.xml`:
 </urlset>
 ```
 
-## 📱 Browser Support
+## Browser Support
 
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Theme not persisting:**
 - Check browser localStorage is enabled
@@ -364,11 +366,11 @@ Create `sitemap.xml`:
 - Verify `data.js` arrays are properly formatted
 - Ensure no trailing commas in JSON-like structures
 
-## 📄 License
+## License
 
 MIT License - feel free to use this template for your own portfolio!
 
-## 🤝 Contributing
+## Contributing
 
 This is a personal portfolio template, but suggestions are welcome:
 
@@ -378,7 +380,7 @@ This is a personal portfolio template, but suggestions are welcome:
 4. Push to the branch (`git push origin feature/improvement`)
 5. Open a Pull Request
 
-## 📞 Contact
+## Contact
 
 **Chandan Kumar**
 - Email: Ckumar5@hawk.iit.edu
@@ -388,6 +390,6 @@ This is a personal portfolio template, but suggestions are welcome:
 
 ---
 
-⭐ **Built with passion using vanilla JavaScript** - No frameworks, just pure web fundamentals!
+Built with vanilla JavaScript - No frameworks, just pure web fundamentals.
 
 *Last updated: January 2026*
