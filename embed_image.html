@@ -1,0 +1,20 @@
+<!DOCTYPE DOCTYPE html>
+<html>
+<head><title>Base64 Image</title></head>
+<body>
+<img id="profileImg" style="width:500px; border-radius:50%; filter: brightness(1);">
+<script>
+const base64Data = `EOF
+base64 -i /tmp/portfolio-website/images/profile.jpg | tr -d '\n' >> /tmp/portfolio-website/embed_image.html
+cat >> /tmp/portfolio-website/embed_image.html << 'EOF'
+`;
+document.getElementById('profileImg').src = 'data:image/jpeg;base64,' + base64Data;
+
+// Theme detection
+const theme = document.documentElement.getAttribute('data-theme');
+if (theme === 'dark') {
+  document.getElementById('profileImg').style.filter = 'brightness(0.9)';
+}
+</script>
+</body>
+</html>
