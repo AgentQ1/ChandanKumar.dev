@@ -16,7 +16,6 @@ const projects = [
             "AI-powered content generation and multilingual support"
         ],
         links: {
-            live: "#",
             github: "https://github.com/AgentQ1"
         }
     },
@@ -51,13 +50,12 @@ const projects = [
             "Zero-maintenance serverless architecture"
         ],
         links: {
-            live: "#",
+        links: {
             github: "https://github.com/AgentQ1"
         }
     },
     {
-        id: 4,
-        title: "CampusLive - iOS App",
+        id: 4, "CampusLive - iOS App",
         category: ["mobile"],
         icon: "📱",
         date: "Dec 2025 - Present",
@@ -104,13 +102,12 @@ const projects = [
         ],
         links: {
             live: "#",
+        links: {
             github: "https://github.com/AgentQ1"
         }
     },
     {
-        id: 7,
-        title: "Airlines Customer Clustering",
-        category: ["ai-ml"],
+        id: 7,ry: ["ai-ml"],
         icon: "✈️",
         date: "Research Project",
         description: "Customer segmentation for East West Airlines using hierarchical and k-means clustering on 3,999 passenger records. Delivered targeted marketing strategies for four distinct customer segments.",
@@ -138,7 +135,7 @@ const projects = [
             "Multilingual support and robust authentication"
         ],
         links: {
-            live: "#"
+            github: "https://github.com/AgentQ1"
         }
     },
     {
