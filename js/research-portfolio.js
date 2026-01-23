@@ -38,13 +38,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // Build links
             const links = [];
             if (project.links.github) {
-                links.push(`<a href="${project.links.github}" target="_blank" style="color: var(--accent-primary); margin-right: 1rem; font-size: 0.9rem;">GitHub →</a>`);
+                links.push(`<a href="${project.links.github}" target="_blank" style="color: var(--accent-primary); margin-right: 1.5rem; font-size: 0.95rem; font-weight: 500;">📁 GitHub →</a>`);
             }
             if (project.links.live) {
-                links.push(`<a href="${project.links.live}" target="_blank" style="color: var(--accent-primary); margin-right: 1rem; font-size: 0.9rem;">Live Demo →</a>`);
+                links.push(`<a href="${project.links.live}" target="_blank" style="color: var(--accent-primary); margin-right: 1.5rem; font-size: 0.95rem; font-weight: 500;">🔗 Live Demo →</a>`);
             }
             if (project.links.paper) {
-                links.push(`<a href="${project.links.paper}" target="_blank" style="color: var(--accent-primary); margin-right: 1rem; font-size: 0.9rem;">Paper →</a>`);
+                links.push(`<a href="${project.links.paper}" target="_blank" style="color: var(--accent-primary); margin-right: 1.5rem; font-size: 0.95rem; font-weight: 500;">📄 Paper →</a>`);
             }
             
             projectCard.innerHTML = `
