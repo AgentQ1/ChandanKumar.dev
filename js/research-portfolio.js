@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             projectCard.innerHTML = `
                 <div style="display: flex; gap: 0.8rem; align-items: baseline; margin-bottom: 0.8rem;">
-                    <span style="font-size: 1.5rem;">${project.icon}</span>
                     <h3 style="font-size: 1.3rem; font-weight: 600; margin: 0;">${project.title}</h3>
                 </div>
                 
