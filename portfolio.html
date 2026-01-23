@@ -55,18 +55,31 @@
         </div>
     </nav>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio" style="padding-top: 120px;">
-        <div class="container">
-            <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">All Projects</button>
-                <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
-                <button class="filter-btn" data-filter="cloud">Cloud</button>
-                <button class="filter-btn" data-filter="mobile">Mobile</button>
-                <button class="filter-btn" data-filter="web">Web</button>
+    <!-- Research-Style Work Section -->
+    <section id="portfolio" class="research-portfolio" style="padding-top: 120px; padding-bottom: 60px;">
+        <div class="container" style="max-width: 900px;">
+            <header class="research-header">
+                <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; margin-top: 1.5rem;">
+                    <strong>Research Interests:</strong> Distributed Systems, Edge Computing, Large Language Models, Cloud Infrastructure, Privacy Engineering
+                </p>
+                <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap; font-size: 0.9rem;">
+                    <a href="https://github.com/AgentQ1" target="_blank" style="color: var(--accent-primary);">GitHub Profile →</a>
+                    <a href="https://www.linkedin.com/in/chandnnn/" target="_blank" style="color: var(--accent-primary);">LinkedIn →</a>
+                    <a href="mailto:Ckumar5@hawk.iit.edu" style="color: var(--accent-primary);">Contact Email →</a>
+                </div>
+            </header>
+
+            <!-- Filter Tabs -->
+            <div class="research-filters" style="margin-bottom: 2rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+                <button class="research-filter-btn active" data-filter="all" style="margin-right: 1rem; padding: 0.5rem 0; background: none; border: none; color: var(--text-primary); font-size: 0.95rem; cursor: pointer; border-bottom: 2px solid var(--accent-primary);">All</button>
+                <button class="research-filter-btn" data-filter="ai-ml" style="margin-right: 1rem; padding: 0.5rem 0; background: none; border: none; color: var(--text-secondary); font-size: 0.95rem; cursor: pointer;">AI/ML</button>
+                <button class="research-filter-btn" data-filter="cloud" style="margin-right: 1rem; padding: 0.5rem 0; background: none; border: none; color: var(--text-secondary); font-size: 0.95rem; cursor: pointer;">Cloud</button>
+                <button class="research-filter-btn" data-filter="mobile" style="margin-right: 1rem; padding: 0.5rem 0; background: none; border: none; color: var(--text-secondary); font-size: 0.95rem; cursor: pointer;">Mobile</button>
+                <button class="research-filter-btn" data-filter="web" style="margin-right: 1rem; padding: 0.5rem 0; background: none; border: none; color: var(--text-secondary); font-size: 0.95rem; cursor: pointer;">Web</button>
             </div>
 
-            <div class="portfolio-grid" id="portfolioGrid">
+            <!-- Projects List -->
+            <div class="research-projects-list" id="researchProjectsList">
                 <!-- Projects will be dynamically inserted here -->
             </div>
         </div>
@@ -87,10 +100,11 @@
                     <a href="resume.html">Resume</a>
                     <a href="index.html#contact">Contact</a>
                 </div>
-                <div class="footer-social">
-                    <a href="https://github.com/AgentQ1" target="_blank" aria-label="GitHub">GitHub</a>
-                    <a href="https://www.linkedin.com/in/chandnnn/" target="_blank" aria-label="LinkedIn">LinkedIn</a>
-                    <a href="https://scholar.google.com/citations?hl=en&user=hvN1CFQAAAAJ" target="_blank" aria-label="Google Scholar">Google Scholar</a>
+    <script src="js/data.js"></script>
+    <script src="js/research-portfolio.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>             <a href="https://scholar.google.com/citations?hl=en&user=hvN1CFQAAAAJ" target="_blank" aria-label="Google Scholar">Google Scholar</a>
                     <a href="mailto:Ckumar5@hawk.iit.edu" aria-label="Email">Email</a>
                 </div>
             </div>
