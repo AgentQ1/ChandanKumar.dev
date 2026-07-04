@@ -4,16 +4,16 @@
 const projects = [
     {
         id: 1,
-        title: "41Dayta",
-        category: ["ai-ml", "cloud", "web"],
-        icon: "🚀",
+        title: "41Dayta — Privacy-First CRM Platform",
+        category: ["web", "cloud"],
+        icon: "🔒",
         date: "Jan 2025 - Present",
-        description: "Privacy-first CRM platform for solopreneurs and small teams. Built multilingual chat platform, AI-powered word/PPT editors, and AI-curated news portal. Achieved 200+ beta sign-ups with 30% faster load times.",
-        technologies: ["Python", "JavaScript", "React", "AWS", "AI/ML"],
+        description: "Founded and launched a privacy-first CRM platform focused on customer data, workflow automation, and business operations.",
+        technologies: ["CRM", "Privacy", "Product Strategy", "Analytics", "UI/UX"],
         highlights: [
-            "200+ beta sign-ups with secure data storage",
-            "30% faster load times, 50% database cost reduction",
-            "AI-powered content generation and multilingual support"
+            "Reached 20,000+ beta sign-ups",
+            "Built early product positioning, user flows, and growth strategy",
+            "Designed privacy-first workflows for customer and business data"
         ],
         links: {
             github: "https://github.com/AgentQ1"
@@ -21,137 +21,105 @@ const projects = [
     },
     {
         id: 2,
-        title: "On-Device LLM Inference Engine",
-        category: ["ai-ml", "cloud"],
-        icon: "🤖",
-        date: "Nov 2025 - Present",
-        description: "Hardware-agnostic framework supporting Rust, C++, Go, and Python for deploying large language models on edge devices. Built CPU, GPU, NPU, and TPU acceleration with optimized inference pipelines.",
-        technologies: ["Rust", "C++", "Go", "Python", "Edge Computing"],
+        title: "moomo.dev — Multilingual LLM Productivity Platform",
+        category: ["ai-ml", "web", "cloud"],
+        icon: "🧠",
+        date: "2025 - Present",
+        description: "Built a multilingual LLM platform with AI-powered Word/PPT editing, dynamic news tools, and productivity workflows.",
+        technologies: ["LLM", "Swift", "Firebase", "Node.js", "UI/UX", "i18n"],
         highlights: [
-            "Multi-language support with hardware abstraction layer",
-            "Reduced latency and cloud dependency for enterprise LLM workloads",
-            "CI/CD pipelines and commercial licensing"
+            "Created AI-powered document and presentation editing workflows",
+            "Built multilingual chat and content generation experiences",
+            "Applied Firebase, Swift, Node.js, and product design to scalable AI features"
         ],
         links: {
-            github: "https://github.com/AgentQ1"
+            github: "https://github.com/AgentQ1/moomoios"
         }
     },
     {
         id: 3,
-        title: "Movo - Contact Database & File Storage",
-        category: ["cloud", "web"],
-        icon: "☁️",
-        date: "Dec 2025 - Present",
-        description: "Globally accessible serverless application for contact management using Cloudflare Workers and R2 storage. Implemented REST APIs with D1 database and KV namespace for sub-millisecond lookups.",
-        technologies: ["Cloudflare Workers", "R2", "D1 Database", "REST API"],
+        title: "Quant Finance & Market Analytics",
+        category: ["ai-ml", "web"],
+        icon: "📈",
+        date: "Project",
+        description: "Built analytics workflows for trading strategy research, portfolio analysis, and market-risk evaluation.",
+        technologies: ["Python", "SQL", "Tableau", "Portfolio Analytics", "Risk Analysis"],
         highlights: [
-            "50% multipart upload optimization",
-            "60-80% API expense reduction",
-            "Zero-maintenance serverless architecture"
+            "Backtested 200+ trading strategies",
+            "Applied S&P 500 tail-hedge strategy analysis",
+            "Used Python, SQL, and Tableau to study volatility, risk, and market behavior"
         ],
         links: {
-        links: {
-            github: "https://github.com/AgentQ1"
+            github: "https://github.com/AgentQ1/TFA-Predictive-Analytics"
         }
     },
     {
-        id: 4, "CampusLive - iOS App",
-        category: ["mobile"],
-        icon: "📱",
-        date: "Dec 2025 - Present",
-        description: "Native iOS application for real-time campus engagement using Swift and modern UIKit/SwiftUI architecture. Integrated JavaScript bridge for cross-platform functionality with live updates and push notifications.",
-        technologies: ["Swift", "UIKit", "SwiftUI", "JavaScript Bridge"],
+        id: 4,
+        title: "InSystem Compute — Edge LLM Infrastructure",
+        category: ["ai-ml", "cloud"],
+        icon: "⚡",
+        date: "2025 - Present",
+        description: "Designed an on-device LLM inference framework for local AI workloads and edge computing environments.",
+        technologies: ["Rust", "C++", "Go", "Python", "Edge AI"],
         highlights: [
-            "Real-time campus engagement features",
-            "Cross-platform JavaScript bridge",
-            "Live updates and push notifications"
+            "Explored hardware-aware AI inference for edge devices",
+            "Reduced reliance on cloud-only model serving",
+            "Built cross-language infrastructure concepts for AI deployment"
         ],
         links: {
-            github: "https://github.com/AgentQ1"
+            github: "https://github.com/AgentQ1/insystem-compute"
         }
     },
     {
         id: 5,
-        title: "AI Debater - Game Theory System",
-        category: ["ai-ml"],
-        icon: "🎮",
-        date: "Nov 2020",
-        description: "AI system applying game-theory and mechanism-design principles to strategic debating scenarios. Implemented algorithms to maximize utility in competitive debate with Neo4j graph database for relationship mapping.",
-        technologies: ["Python", "Game Theory", "Neo4j", "AI"],
+        title: "FitCheckAI — AI Style & Outfit Analysis App",
+        category: ["ai-ml", "mobile"],
+        icon: "📱",
+        date: "2026",
+        description: "Built an iOS AI fashion assistant that analyzes outfit photos, gives feedback, and supports premium AI-powered image upgrades.",
+        technologies: ["SwiftUI", "Firebase", "Gemini", "StoreKit", "Product Design"],
         highlights: [
-            "Nash equilibrium and strategic decision-making integration",
-            "Argumentation frameworks using graph database",
-            "Research-grade debate strategies"
+            "Created photo-based outfit scoring and recommendation flows",
+            "Integrated Firebase backend, authentication, and premium subscription logic",
+            "Designed privacy, reporting, and account-management flows for App Store review"
         ],
         links: {
-            github: "https://github.com/AgentQ1"
+            github: "https://github.com/AgentQ1/FitCheckAI"
         }
     },
     {
         id: 6,
-        title: "Polls - Voting & Survey Platform",
-        category: ["web"],
-        icon: "📊",
-        date: "Sep 2020",
-        description: "JavaScript-based polling application with intuitive UI and responsive design. Deployed on GitHub Pages under MIT License with real-time results and accessible polling workflows.",
-        technologies: ["JavaScript", "HTML/CSS", "GitHub Pages"],
+        title: "Movo — Contact Database & File Storage",
+        category: ["cloud", "web"],
+        icon: "☁️",
+        date: "2025 - Present",
+        description: "Built a serverless contact and file-management system using edge infrastructure and scalable storage workflows.",
+        technologies: ["Cloudflare Workers", "R2", "D1", "REST APIs", "Serverless"],
         highlights: [
-            "Real-time polling results",
-            "Responsive and accessible design",
-            "Open-source under MIT License"
+            "Designed globally accessible serverless architecture",
+            "Built APIs for contact lookup and file workflows",
+            "Focused on low-maintenance, scalable backend infrastructure"
         ],
         links: {
-            live: "#",
-        links: {
-            github: "https://github.com/AgentQ1"
+            github: "https://github.com/AgentQ1/movo"
         }
     },
     {
-        id: 7,ry: ["ai-ml"],
-        icon: "✈️",
-        date: "Research Project",
-        description: "Customer segmentation for East West Airlines using hierarchical and k-means clustering on 3,999 passenger records. Delivered targeted marketing strategies for four distinct customer segments.",
-        technologies: ["Python", "scikit-learn", "pandas", "Machine Learning"],
+        id: 7,
+        title: "CampusLive — iOS Campus Engagement App",
+        category: ["mobile", "web"],
+        icon: "🎓",
+        date: "2025 - Present",
+        description: "Built a campus engagement app concept for events, communication, and student community interaction.",
+        technologies: ["Swift", "SwiftUI", "Firebase", "JavaScript", "Mobile UX"],
         highlights: [
-            "Analyzed 3,999 passenger records",
-            "Identified 4 distinct customer segments",
-            "Targeted marketing strategy recommendations"
+            "Created mobile-first event and student engagement flows",
+            "Explored live updates and campus communication features",
+            "Applied product thinking to community-focused app design"
         ],
         links: {
-            github: "https://github.com/AgentQ1"
+            github: "https://github.com/AgentQ1/CampusLive-Project"
         }
-    },
-    {
-        id: 8,
-        title: "Moomoo AI Assistant",
-        category: ["ai-ml", "web"],
-        icon: "💬",
-        date: "Project",
-        description: "Multiple iterations of voice-enabled AI assistants and chat interfaces using OpenAI and Firebase. Achieved 50-80% performance improvements through optimized API usage, multilingual support, and authentication.",
-        technologies: ["JavaScript", "OpenAI API", "Firebase", "Speech-to-Text"],
-        highlights: [
-            "Voice-enabled AI chat interfaces",
-            "50-80% performance improvements",
-            "Multilingual support and robust authentication"
-        ],
-        links: {
-            github: "https://github.com/AgentQ1"
-        }
-    },
-    {
-        id: 9,
-        title: "Tech Tribe SEO Optimization",
-        category: ["web"],
-        icon: "🔍",
-        date: "Project",
-        description: "Comprehensive SEO and paid search analysis for large e-commerce platform. Analyzed 167K monthly clicks and $755K ad spend, identifying 77% keyword cannibalization with 94% cost reduction strategies.",
-        technologies: ["SEO", "Google Analytics", "Data Analysis"],
-        highlights: [
-            "Analyzed 167K monthly clicks and $755K spend",
-            "Identified 77% keyword cannibalization",
-            "Proposed 94% cost reduction strategies"
-        ],
-        links: {}
     }
 ];
 
@@ -161,102 +129,113 @@ const projects = [
 const resumeData = [
     {
         type: "experience",
-        title: "Founder & Product Lead",
-        organization: "41Dayta",
-        location: "London, UK",
-        date: "Jan 2025 - Present",
-        description: "Launched privacy-first CRM platform for solopreneurs and small teams with 200+ beta sign-ups. Built Moomo.dev multilingual chat, AI-powered Word/PPT editors, and Moomo.News AI-curated portal.",
+        title: "Market Research & Sales Analyst",
+        organization: "Keller Williams",
+        location: "Chicago, IL",
+        date: "May 2026 - Present",
+        description: "Research Chicago real estate trends, pricing, and buyer behavior to support sales strategy and client decision-making.",
         highlights: [
-            "Achieved 30% faster load times and 50% database cost reduction",
-            "Led end-to-end product strategy and UI/UX design",
-            "Managed cross-functional team and delivered MVP quickly"
+            "Analyze market data, pricing patterns, and buyer behavior",
+            "Prepare CMA reports, property insights, and recommendations",
+            "Support data-driven real estate sales and client strategy"
         ]
     },
     {
         type: "experience",
-        title: "On-Device LLM Inference Engine Developer",
-        organization: "InSystem-Compute | Enterprise AI Infrastructure",
-        location: "Remote",
-        date: "Nov 2025 - Present",
-        description: "Designed hardware-agnostic framework supporting Rust, C++, Go, and Python for edge LLM deployment. Built hardware abstraction layer for CPU, GPU, NPU, and TPU acceleration.",
+        title: "Human Resources Executive",
+        organization: "moomo.dev",
+        location: "Chicago, IL",
+        date: "Jan 2025 - May 2026",
+        description: "Supported recruitment, onboarding, internal operations, and people analytics for a growing AI product environment.",
         highlights: [
-            "Reduced latency and cloud dependency for enterprise workloads",
-            "Architected multi-language support with optimized pipelines",
-            "Integrated CI/CD and commercial licensing"
+            "Used data tools to improve hiring and people-operations workflows",
+            "Coordinated teams, internal communication, and operating processes",
+            "Connected HR operations with product, analytics, and execution needs"
         ]
     },
     {
         type: "experience",
-        title: "Cloud-Native Application Developer",
-        organization: "Movo - Contact Database & File Storage",
-        location: "Remote",
-        date: "Dec 2025 - Present",
-        description: "Built globally accessible serverless application using Cloudflare Workers and R2 storage. Implemented REST APIs with D1 database and KV namespace for sub-millisecond alias lookups.",
+        title: "Social Policy and Planning Associate",
+        organization: "UNICEF India",
+        location: "New York, NY",
+        date: "May 2026 - Present",
+        description: "Support policy research, planning, program analysis, documentation, and stakeholder communication for development initiatives.",
         highlights: [
-            "Optimized multipart uploads reducing duplicate writes by 50%",
-            "Cut API expenses by 60-80%",
-            "Zero-maintenance serverless architecture"
+            "Review reports and data for development programs",
+            "Assist with policy documentation and planning materials",
+            "Support research-driven communication across stakeholders"
         ]
     },
     {
         type: "experience",
-        title: "iOS Developer",
-        organization: "CampusLive",
-        location: "Remote",
-        date: "Dec 2025 - Present",
-        description: "Developed native iOS application for real-time campus engagement using Swift and modern UIKit/SwiftUI architecture. Integrated JavaScript bridge for cross-platform functionality.",
+        title: "Finance Specialist Intern",
+        organization: "J.P. Morgan Asset Management",
+        location: "New York, NY",
+        date: "May 2023 - Dec 2023",
+        description: "Supported financial analysis, reporting, and investment research using market data and business fundamentals.",
         highlights: [
-            "Live update features and push notifications",
-            "Enhanced user engagement with intuitive UI/UX",
-            "Continuous integration and deployment automation"
+            "Prepared reports using financial data and market insights",
+            "Applied economics and accounting concepts to business decisions",
+            "Supported investment research and financial reporting workflows"
         ]
     },
     {
         type: "education",
-        title: "Master of Business Administration (MBA)",
+        title: "Master of Laws (LL.M.), AI, Legal Innovation and Technology",
+        organization: "Chicago-Kent College of Law",
+        location: "Chicago, IL",
+        date: "Jan 2026",
+        description: "Legal-tech training focused on AI for law, legal analytics, legal innovation, and technology-driven legal systems.",
+        highlights: [
+            "GPA: 4.0",
+            "Focus: AI for Law, legal analytics, legal project management, and legal innovation"
+        ]
+    },
+    {
+        type: "education",
+        title: "Master of Business Administration (MBA), Business Analytics",
         organization: "Illinois Institute of Technology",
         location: "Chicago, IL",
-        date: "Expected Dec 2025",
-        description: "Specialization in Business Analytics",
+        date: "Jan 2026",
+        description: "Business analytics graduate training focused on data, strategy, visualization, and decision-making.",
         highlights: [
             "GPA: 3.3",
-            "Alpha Sigma Phi (ΑΣΦ) Member",
-            "Focus on data analytics and digital strategy"
+            "Skills: SQL, Python, Tableau, KPI tracking, dashboards, and data visualization"
         ]
     },
     {
         type: "education",
-        title: "Bachelor of Business Administration",
+        title: "Bachelor of Business Administration, International Business",
         organization: "Amity University",
-        location: "Noida, India",
+        location: "India",
         date: "Jun 2024",
-        description: "International Business",
+        description: "International business degree with exchange programs at Adelphi University in New York and Birkbeck University in London.",
         highlights: [
             "GPA: 3.8",
-            "Gold Medal in Marathon - Amity Education Group Championship",
-            "Exchange programs: Adelphi University (NY), Birkbeck University (London)"
+            "Exchange: Adelphi University, New York — May 2023",
+            "Exchange: Birkbeck University, London — Dec 2022"
         ]
+    },
+    {
+        type: "award",
+        title: "Alpha Sigma Phi (ΑΣΦ), Member",
+        organization: "Illinois Institute of Technology",
+        date: "Jun 2025",
+        description: "Member of Alpha Sigma Phi at Illinois Institute of Technology."
     },
     {
         type: "award",
         title: "Best Student Award",
         organization: "Birkbeck University, London",
         date: "Mar 2023",
-        description: "Presented by Graham Bolton for outstanding academic performance and contribution during exchange program."
+        description: "Best Student Award presented by Graham Bolton during the Birkbeck University exchange program."
     },
     {
         type: "award",
         title: "Gold Medal in Marathon",
-        organization: "Amity Education Group Championship",
+        organization: "Amity Education Group Championship, New York",
         date: "May 2023",
-        description: "First place in marathon competition demonstrating dedication and endurance."
-    },
-    {
-        type: "award",
-        title: "Alpha Sigma Phi (ΑΣΦ) Member",
-        organization: "Illinois Institute of Technology",
-        date: "Jun 2025",
-        description: "Member of prestigious fraternity participating in campus technology initiatives and leadership development."
+        description: "Gold medal in marathon at Amity Education Group Championship."
     }
 ];
 
@@ -266,62 +245,32 @@ const resumeData = [
 const blogPosts = [
     {
         id: 1,
-        title: "Building Scalable LLM Inference on Edge Devices",
+        title: "Building AI Products That Recruiters Understand",
         date: "Jan 15, 2026",
-        readTime: "8 min",
-        category: "AI/ML",
-        icon: "🤖",
-        excerpt: "Exploring hardware abstraction layers and optimization strategies for deploying large language models on resource-constrained edge devices.",
-        slug: "llm-inference-edge-devices"
+        readTime: "6 min",
+        category: "Product",
+        icon: "🧠",
+        excerpt: "How to communicate AI, analytics, law, and finance experience in a clear product-builder narrative.",
+        slug: "ai-product-builder-narrative"
     },
     {
         id: 2,
-        title: "Serverless Architecture: A Deep Dive into Cloudflare Workers",
+        title: "Edge AI and Serverless Product Architecture",
         date: "Jan 10, 2026",
-        readTime: "6 min",
+        readTime: "7 min",
         category: "Cloud",
-        icon: "☁️",
-        excerpt: "How to build globally distributed, zero-maintenance applications using Cloudflare's edge computing platform with practical examples.",
-        slug: "cloudflare-workers-deep-dive"
+        icon: "⚡",
+        excerpt: "A practical look at building scalable AI workflows using edge computing, serverless systems, and privacy-first design.",
+        slug: "edge-ai-serverless-architecture"
     },
     {
         id: 3,
-        title: "The Future of Privacy-First CRM Platforms",
+        title: "Privacy-First CRM and Customer Data Workflows",
         date: "Dec 28, 2025",
         readTime: "5 min",
         category: "Product",
         icon: "🔒",
-        excerpt: "Why privacy matters in modern CRM systems and how to build platforms that respect user data while delivering powerful features.",
+        excerpt: "Why privacy-first customer systems matter and how CRM platforms can balance growth, usability, and data trust.",
         slug: "privacy-first-crm"
-    },
-    {
-        id: 4,
-        title: "Modern iOS Development: SwiftUI vs UIKit in 2026",
-        date: "Dec 20, 2025",
-        readTime: "7 min",
-        category: "Mobile",
-        icon: "📱",
-        excerpt: "Comparing SwiftUI and UIKit for production iOS apps, with real-world examples from building CampusLive.",
-        slug: "swiftui-vs-uikit-2026"
-    },
-    {
-        id: 5,
-        title: "Game Theory in AI: Strategic Decision Making",
-        date: "Dec 15, 2025",
-        readTime: "10 min",
-        category: "AI/ML",
-        icon: "🎮",
-        excerpt: "Applying Nash equilibrium and mechanism design principles to build AI systems that make strategic decisions in competitive environments.",
-        slug: "game-theory-ai"
-    },
-    {
-        id: 6,
-        title: "Optimizing Database Performance: A Case Study",
-        date: "Dec 5, 2025",
-        readTime: "6 min",
-        category: "Database",
-        icon: "💾",
-        excerpt: "How I reduced database costs by 50% and improved query performance for 41Dayta using smart indexing and caching strategies.",
-        slug: "database-optimization-case-study"
     }
 ];
